@@ -62,12 +62,12 @@ use vars qw(
 
 $BUILD = (qw$LastChangedRevision 1 $)[-1];
 $XML = XML::Twig->new('pretty_print' => 'none');
-$DBH = DBI->connect("dbi:Pg:dbname=opennms;host=t-opennms.gscs.rackspace.com;port=5432", 'ebi_write', 'dggQvWmiD');
+$DBH = DBI->connect("dbi:Pg:dbname=opennms;host=t-opennms.gscs.rackspace.com;port=5432", 'xxx', 'xxx');
 
 # set defaults
-$url_root = 'https://t-opennms.gscs.rackspace.com/opennms/rest';
-$username = 'mala0858';
-$password = 'malay123';
+$url_root = 'https://host.com/opennms/rest';
+$username = 'xxx';
+$password = 'xxx';
 
 $print_help  = 0;
 $print_longhelp  = 0;
