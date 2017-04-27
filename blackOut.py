@@ -34,7 +34,7 @@ ifregainedservice = list()
 iflostservice = list()
 servicename = list()
 #conn = psycopg2.connect(database="opennms", user="ebi_read", password=decoded, host="10.13.195.68", port="5432")
-conn = psycopg2.connect(database="opennms", user="ebi_write", password=decoded, host="t-opennms.gscs.rackspace.com", port="5432")
+conn = psycopg2.connect(database="opennms", user="xxx", password=decoded, host="xxx", port="5432")
 
 print "Opened database successfully"
 print "**************",nodelabel,start,end
